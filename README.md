@@ -55,17 +55,4 @@ A simple Battleship game built using Java and Swing. This application allows a p
     - The game ends when one player has successfully sunk all of the opponent's ships.
 
 ## Clearing Old Class Files
-To avoid cache issues with old class files, use the following Python script to delete existing class files:
-
-```python
-import os
-import glob
-
-# Specify the directory containing your class files
-directory = './'
-
-# Delete all .class files in the directory
-class_files = glob.glob(os.path.join(directory, "*.class"))
-for file in class_files:
-    os.remove(file)
-    print(f"Deleted {file}")
+To avoid cache issues with old class files, use the included Python script to delete existing artifacts
